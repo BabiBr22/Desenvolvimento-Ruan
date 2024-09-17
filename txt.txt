@@ -2,3 +2,13 @@
 
 npm init -y
 npm init i express
+
+
+senha do banco de dados https://cockroachlabs.cloud/cluster/1d760526-3ce2-4921-bf97-06082c4efb50/overview
+senha:     a9zDNLSs0UTTreuzvbHWKA
+
+
+mkdir -p $env:appdata\postgresql\; Invoke-WebRequest -Uri https://cockroachlabs.cloud/clusters/1d760526-3ce2-4921-bf97-06082c4efb50/cert -OutFile $env:appdata\postgresql\root.crt
+
+
+LINK DE CONEXÃO: postgresql://barbara:a9zDNLSs0UTTreuzvbHWKA@senai-api-1691.jxf.gcp-southamerica-east1.cockroachlabs.cloud:26257/defaultdb?sslmode=verify-full
