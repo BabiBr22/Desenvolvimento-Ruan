@@ -1,0 +1,4 @@
+"type": module, //com isso aqui nós usamos import em vez de require
+
+npm init -y
+npm init i express
