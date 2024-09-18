@@ -2,6 +2,7 @@
 
 npm init -y
 npm init i express
+npm i express pg
 
 
 senha do banco de dados https://cockroachlabs.cloud/cluster/1d760526-3ce2-4921-bf97-06082c4efb50/overview
