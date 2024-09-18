@@ -18,7 +18,6 @@ try {
     await conexao.connect()
     console.log('Banco de dados conectou')
 } catch (erro) {
-
     console.log('Erro ao conectar no banco de dados')
     console.log(erro)
 }

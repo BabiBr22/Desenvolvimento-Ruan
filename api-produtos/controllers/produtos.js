@@ -1,8 +1,9 @@
 import database from '../database.js'
 
 
-const listarProdutos = (req, res) => {
+const listarProdutos = async (req, res) => {
     // Rodar um SELECT na tabela de PRODUTOS
+    const resultado = await database.query('SELECT * FROM produtos')
     res.status(200).send({ mensagem : 'ok '})
 }
 
