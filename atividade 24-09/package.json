@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "pg": "^8.13.0"
+  },
+  "name": "atividade-24-09",
+  "version": "1.0.0",
+  "main": "servidor.js",
+  "devDependencies": {},
+  "type": "module",
+  "scripts": {
+    "dev": "node servidor.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
